@@ -3,9 +3,9 @@
 # - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：涵盖加密资产交易所、钱包服务、行情平台与链上工具
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-17
-# - 校对时间：2026-06-17
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Binance Exchange Platform（Binance 加密资产交易平台）
 # - 校对时间：2026-06-14

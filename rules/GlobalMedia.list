@@ -4,8 +4,9 @@
 # - 特征：涵盖美洲、欧洲、日韩、东南亚等常见流媒体服务域名
 # - 说明：YouTube 域名已迁移至 Google.list 统一管理
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-03-16
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > TikTok / ByteDance Platform Infrastructure（TikTok 与字节跳动平台通信基础设施）
 

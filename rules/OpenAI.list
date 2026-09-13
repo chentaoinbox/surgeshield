@@ -4,9 +4,9 @@
 # - 特征：覆盖主流生成式人工智能平台与大模型服务域名，包括 OpenAI、Claude、Gemini、Copilot、Perplexity、HuggingFace 等生态体系
 # - 说明：本规则集收录国际主流生成式 AI 平台相关域名；中国大陆 AI 服务域名统一归入 China 规则集维护
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-12
-# - 校对时间：2026-09-12
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > OpenAI Platform Infrastructure（OpenAI 平台基础设施域名）
 # - 校对时间：2026-08-02

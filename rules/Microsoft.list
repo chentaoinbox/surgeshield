@@ -3,9 +3,9 @@
 # - 来源：官方文档 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：涵盖 Microsoft 主域、Office 365、OneDrive、Teams、Skype 等服务域名（Xbox 游戏服务已独立归类至 GamePlatforms.list）
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-09-11
-# - 校对时间：2026-09-11
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Microsoft Visual Studio Code 主程序与资源服务
 

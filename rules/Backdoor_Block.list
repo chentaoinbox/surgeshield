@@ -3,9 +3,9 @@
 # - 来源：全球威胁情报数据库 / 安全社区情报 / 通信行为抓包 / 自定义样本校验
 # - 特征：封锁具备反连、心跳、远程控制特征的通信节点，涵盖 RAT、Sliver、Metasploit 等常见后门工具所依赖的 C2 基础设施
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-12
-# - 校对时间：2026-06-12
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Silver Fox Backdoor Communication Infrastructure（银狐木马后门通信基础设施）
 # - 数据来源：https://s.threatbook.com/blog/attack/2063346262845685760.html

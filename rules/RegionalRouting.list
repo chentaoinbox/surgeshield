@@ -3,9 +3,9 @@
 # - 来源：官方服务说明 / 地区政策公告 / 本地流量行为分析 / 手动校验 / 持续自维护
 # - 特征：识别受出口地区、服务政策、区域可用性或功能限制影响的国际服务域名
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-06
-# - 校对时间：2026-08-06
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Kaspersky（卡巴斯基）相关域名
 # - 数据来源：https://support.kaspersky.com/us/common/start/6105

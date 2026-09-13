@@ -3,9 +3,9 @@
 # - 来源：官方文档 / 本地流量分析 / 手动校验 / 持续维护
 # - 特征：涵盖 GitHub 平台核心服务域名与基础设施节点
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-07-21
-# - 校对时间：2026-07-21
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > GitHub Core Services（GitHub 主站与基础服务）
 

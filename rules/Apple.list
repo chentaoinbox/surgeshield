@@ -4,9 +4,9 @@
 # - 特征：涵盖 Apple ID、iCloud、推送通知、地图、系统激活与更新等核心服务通信
 # - 说明：涉及与行为分析相关的域名已归入 BehaviorDomain.list，广告类域名已归入 AdDomain.list，具体分类详见各模块说明。
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-31
-# - 校对时间：2026-08-31
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Apple Identity Federation（Apple 账户身份认证网络）
 

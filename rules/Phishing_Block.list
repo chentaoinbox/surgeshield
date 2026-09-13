@@ -4,9 +4,9 @@
 # - 特征：识别假冒登录页、伪装官网、钓鱼邮件链接等用于窃取账号凭据的社会工程攻击域名
 # - 提示：本模块用于识别与拦截已被确认的钓鱼攻击目标，默认启用
 # - 用途：本规则集用于防御性安全策略部署，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-06-05
-# - 校对时间：2026-06-05
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Silver Fox AtlasCross Phishing Delivery Infrastructure（银狐木马 AtlasCross 钓鱼投递基础设施）
 # - 数据来源：https://s.threatbook.com/blog/attack/2044637702980997120.html

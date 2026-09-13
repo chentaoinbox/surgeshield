@@ -4,9 +4,9 @@
 # - 特征：覆盖微信核心通信、登录接口、小程序、支付及多媒体资源服务
 # - 说明：微信客户端大量使用自研 mmtls 长连接通信协议，部分服务节点通过自有 DNS 与 CDN 分发
 # - 用途：本规则集用于防御性安全研究，禁止用于任何非法用途
-# - 维护：https://github.com/Thoseyearsbrian/Aegis
-# - 更新时间：2026-08-22
-# - 校对时间：2026-08-22
+# - 维护：https://github.com/chentaoinbox/surgeshield
+# - 更新时间：2026-09-13
+# - 校对时间：2026-09-13
 
 # > Core Communication（核心通信服务）
 

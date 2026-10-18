@@ -1,0 +1,144 @@
+#!name=番茄小说
+#!desc=番茄小说/字节跳动广告屏蔽规则 | 2026-09-14 | V1.0.8
+#!author=Tao
+#!repo=https://raw.githubusercontent.com/chentaoinbox/surge/main/moudle/fqnovel.sgmodule
+#!category=AD
+#!reject=52
+#!mitm=24
+#!force-http-engine-hosts=13
+#!total=76
+
+[General]
+force-http-engine-hosts = %APPEND% pangolin-sdk-toutiao.com, pangolin-sdk-toutiao1.com, pangolin-sdk-toutiao-b.com, pglstatp-toutiao.com, ad.zijieapi.com, vcs.zijieapi.com, *.amemv.com, *.zijieapi.com, *.byteimg.com, *.byteorge.com, *.bytegoofy.com, *.bytedance.com, *.fqnovelvod.com, *.pstatp.com, *.snssdk.com, *.ixigua.com, *.chengzijianzhan.cn, *.pangolin-sdk-toutiao.com, api-access.pangolin-sdk-toutiao.com, activity-ag.awemeughun.com, mcs.snssdk.com, gurd.snssdk.com, *.douyinpic. com, *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com
+
+[URL Rewrite]
+
+# ==================== 番茄小说专用规则 ====================
+
+# 番茄小说主域名拦截
+"^https?:\/\/i\.snssdk\.com\/" - reject
+"^https?:\/\/i-lq\.snssdk\.com\/" - reject
+"^https?:\/\/dig\.bdurl\.net\/" - reject
+"^https?:\/\/mcs\.snssdk\.com\/" - reject
+"^https?:\/\/tnc3-alisc1\.snssdk\.com\/" - reject
+"^https?:\/\/security-lq\.snssdk\.com\/" - reject
+"^https?:\/\/tnc3-aliec2\.snssdk\.com\/" - reject
+"^https?:\/\/is\.snssdk\.com\/" - reject
+"^https?:\/\/gurd\.snssdk\.com\/src\/server\/v3\/package" - reject
+"^https?:\/\/is-hl\.snnssdk\.com\/" - reject
+
+# 番茄小说广告接口
+"^https?:\/\/.+\.snssdk\.com\/api\/ad\/.+" - reject
+"^https?:\/\/api5-normal-sinfonlineb\.fqnoval\.com" - reject
+"^https?:\/\/ads5-normal-hl\.zijieapi\.com" - reject
+
+# ==================== 字节跳动图片/CDN广告 ====================
+
+# ByteImg 广告素材
+"^https?:\/\/p6-ad-sign\.byteimg\.com\/" - reject
+"^https?:\/\/p9-ad-sign\.byteimg\.com\/" - reject
+"^https?:\/\/.+\.byteimg\.com\/ad-app-package" - reject
+"^https?:\/\/.+\.byteimg\.com\/web\.business\.image" - reject
+
+# PStatp 广告素材
+"^https?:\/\/sf3-ttcdn-tos\.pstatp\.com\/" - reject
+"^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/(ad-app-package|ad)\/.+" - reject
+"^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/web\.business\.image\/.+" - reject
+
+# ==================== 字节跳动活动/服务域名 ====================
+
+"^https?:\/\/activity-ag\.awemeughun\.com\/" - reject
+"^https?:\/\/msync-im1-vip6-std\.easemob\.com\/" - reject
+"^https?:\/\/apd-pcdnwxlogin\.teg\.tencent-cloud\.net\/" - reject
+"^https?:\/\/api\.iegadp\.qq\.com\/" - reject
+
+# ==================== 西瓜视频/番茄小说视频广告 ====================
+
+"^https?:\/\/.*\.default\.ixigua\.com\/" - reject
+"^https?:\/\/v6-novelapp\.ixigua\.com\/" - reject
+"^https?:\/\/.*\.novelapp\.ixigua\.com\/" - reject
+"^https?:\/\/.*\.fqnovelvod\.com\/.*\?(.*&)?mime_type=video_mp4" - reject
+"^https?:\/\/.*\.fqnovelvod\.com\/.*video\/tos\/.*" - reject
+"^https?:\/\/.*\.douyinpic\.com\/.*" - reject
+
+# ==================== 穿山甲广告 SDK ====================
+
+"^https?:\/\/.*pangolin-sdk\..*" - reject
+"^https?:\/\/.*pangolin-sdk-toutiao\..*" - reject
+"^https?:\/\/.*pangolin-sdk-toutiao1\..*" - reject
+"^https?:\/\/.*pglstatp-toutiao\..*" - reject
+"^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/" - reject
+"^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads" - reject
+"^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/server_bidding\/pre_fetch\/" - reject
+
+# ==================== 字节跳动通用域名拦截 ====================
+
+"^https?:\/\/[^\/]*\.zijieapi\.com\/" - reject
+"^https?:\/\/[^\/]*\.pglstatp-toutiao\.com\/" - reject
+"^https?:\/\/[^\/]*\.byteorge\.com\/" - reject
+"^https?:\/\/[^\/]*\.bytegoofy\.com\/" - reject
+"^https?:\/\/[^\/]*\.bytedance\.com\/" - reject
+
+# ==================== 字节跳动 CDN 广告域名变体 ====================
+
+"^https?:\/\/[^\/]+\.bsccdn\.net\/.*" - reject
+"^https?:\/\/[^\/]+\.dig\.zjurl\.cn\/.*" - reject
+"^https?:\/\/[^\/]+\.dig\.bdurl\.net\/.*" - reject
+"^https?:\/\/[^\/]+\.ad\.zijieapi\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.apps\.bytesfield\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.pangolin-sdk-toutiao\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.pangolin-sdk-toutiao1\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.pangolin-sdk-toutiao-b\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.pglstatp-toutiao\.com\/.*" - reject
+"^https?:\/\/[^\/]+\.vcs\.zijieapi\.com\/.*" - reject
+
+# ==================== 抖音/头条广告域名 ====================
+
+"^https?:\/\/ads[^\/]*-normal\.amemv\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lq\.amemv\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lf\.amemv\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-hl\.amemv\.com\/.*" - reject
+
+"^https?:\/\/ads[^\/]*-normal\.zijieapi\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lq\.zijieapi\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lf\.zijieapi\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-hl\.zijieapi\.com\/.*" - reject
+
+"^https?:\/\/ads[^\/]*-normal-lq\.zijieapi\.com\.w\.cdngslb\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lq\.zijieapi\.com\.queniuiq\.com\/.*" - reject
+"^https?:\/\/ads[^\/]*-normal-lf\.zijieapi\.com\.dhcp\/.*" - reject
+
+# ==================== 字节图片广告变体 ====================
+
+"^https?:\/\/p1-mix\.byteimg\.com\/" - reject
+"^https?:\/\/p[^\/]*-ad-sign\.byteimg\.com\/.*" - reject
+"^https?:\/\/p[^\/]*-ad\.byteimg\.com\/.*" - reject
+"^https?:\/\/p[^\/]*-local-ads\.byteimg\.com\.queniuso\.com\/.*" - reject
+"^https?:\/\/p[^\/]*-local-ads\.byteimg\.com\/.*" - reject
+
+# ==================== 字节其他服务广告 ====================
+
+"^https?:\/\/lf[^\/]*-orange\.byteorge\.com\/.*" - reject
+"^https?:\/\/v[^\/]*-novelapp\.fqnovelvod\.com\/.*" - reject
+"^https?:\/\/sf[^\/]*-ttcdn-tos\.pstatp\.com\/.*" - reject
+
+# ==================== 自建站广告 ====================
+
+"^https?:\/\/([^\/]+\.)?localads\.chengzijianzhan\.cn\/.*" - reject
+"^https?:\/\/([^\/]+\.)?localads\.chengzijianzhan\.cn\.queniurc\.com\/.*" - reject
+
+# ==================== 自设不分类 ====================
+"^https?:\/\/[^\/]+\.sjxydc\.com\/.*" - reject
+"^https?:\/\/ncdnfqqios\.fqnovelvod\.com\/.*" - reject
+"^https?:\/\/[^\/]*\.douyimpic\.com\/.*" - reject
+"^https?:\/\/.*reading-video.*" - reject
+"^https?:\/\/.*reading-video\.fqnovelvod\.com.*" - reject
+# ==================== 通用广告特征兜底 ====================
+
+"(?i)\b\/ad\/" - reject
+"(?i)\badvertisement" - reject
+"(?i)\badvertising" - reject
+"(?i)\bsplash_screen" - reject
+
+[MITM]
+hostname = %APPEND% pangolin-sdk-toutiao.com, pangolin-sdk-toutiao1.com, pangolin-sdk-toutiao-b.com, pglstatp-toutiao.com, ad.zijieapi.com, vcs.zijieapi.com, *.amemv.com, *.zijieapi.com, *.byteimg.com, *.byteorge.com, *.bytegoofy.com, *.bytedance.com, *.fqnovelvod.com, *.pstatp.com, *.snssdk.com, *.ixigua.com, *.chengzijianzhan.cn, *.pangolin-sdk-toutiao.com, api-access.pangolin-sdk-toutiao.com, activity-ag.awemeughun.com, mcs.snssdk.com, gurd.snssdk.com, *.douyinpic. com, *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com

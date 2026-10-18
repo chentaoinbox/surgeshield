@@ -1,7 +1,7 @@
 #!name=番茄小说
-#!desc=番茄小说/字节跳动广告屏蔽规则 | 2026-09-14 | V1.0.8
+#!desc=番茄小说/字节跳动广告屏蔽规则 | 2026-10-18 | V1.0.9
 #!author=Tao
-#!repo=https://raw.githubusercontent.com/chentaoinbox/surge/main/moudle/fqnovel.sgmodule
+#!repo=https://raw.githubusercontent.com/chentaoinbox/surgeshield/main/moudle/fqnovel.sgmodule
 #!category=AD
 #!reject=52
 #!mitm=24

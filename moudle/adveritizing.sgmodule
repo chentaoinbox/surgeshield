@@ -1,7 +1,7 @@
 #!name=广告
-#!desc=广告拦截 最后更新时间 2026-09-14
+#!desc=广告拦截 最后更新时间 2026-10-18
 #!author=Tao
-#!repo=https://raw.githubusercontent.com/chentaoinbox/surge/main/moudle/adveritizing.sgmodule
+#!repo=https://raw.githubusercontent.com/chentaoinbox/surgeshield/main/moudle/adveritizing.sgmodule
 #!category=AD
 #!reject=740
 #!mitm=698
